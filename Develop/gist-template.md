@@ -1,10 +1,11 @@
-# Title (replace with your title)
+# Regex Tutorial for Matching an Email
 
-Introductory paragraph (replace this with your text)
+Regex(regular expressions) can be used to find certain patterns of characters within a string. You can also find and replace a character or sequence of characters within a string. 
+They are also frequently used to validate input. This regex matches character information of valid email addresses
 
 ## Summary
 
-Briefly summarize the regex you will be describing and what you will explain. Include a code snippet of the regex. Replace this text with your summary.
+This is the regex code that we will be anaylizing today is: /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
 
 ## Table of Contents
 
