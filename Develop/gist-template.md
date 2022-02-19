@@ -11,9 +11,7 @@ This is the regex code that we will be anaylizing today is: /^([a-z0-9_\.-]+)@([
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
@@ -31,12 +29,17 @@ In this example, we used + to communicate there is another sequence to be matche
 
 ### Character Classes
 In this regular expression, the charactor class /d is used which in Javasctipt classifies the use of any digit from 0 to 9.
-
-### Flags
-
 ### Grouping and Capturing
+There are three groups being captured in this example. Group #1 is the username of the e-mail account [a-z0-9_\.-]. The second group captures the domain name or e-mail service being used [\da-z\.-]. Lastly, the third group captures the domain extention (i.e .com or .net) [a-z\.]{2,6}
 
 ### Bracket Expressions
+Much like the groups in this example, there are also 3 bracket expressions. The information in the bracket expressions is opened and closed between brackets like this []. This indentifies which information is allowed to be matched.
+
+Bracket Expression #1: [a-z0-9_\.-] - includes case sensitive characters from a-z, numbers from 0-9 an underscore, periods and hyphens.
+
+Bracket Expression #2: [\da-z\.-] - includes all digits, case sensitive characters from a-z, periods and hyphens
+
+Bracket Expression #3: [a-z\.] - includes case sensitive characters from a-z and periods.
 
 ### Greedy and Lazy Match
 
