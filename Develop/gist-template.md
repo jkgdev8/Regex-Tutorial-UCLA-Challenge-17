@@ -11,7 +11,7 @@ This is the regex code that we will be anaylizing today is: /^([a-z0-9_\.-]+)@([
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
+
 - [Character Classes](#character-classes)
 - [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
@@ -24,12 +24,13 @@ This is the regex code that we will be anaylizing today is: /^([a-z0-9_\.-]+)@([
 ## Regex Components
 
 ### Anchors
+The anchors used to contain this regular expression are: ^ to start, and $ to finish.
 
 ### Quantifiers
-
-### OR Operator
+In this example, we used + to communicate there is another sequence to be matched as a greedy quantifier. We also used {2,6} as another greedy quantifer to specify the input should be a minimum of 2 characrtors to a maximum of 6 characters.
 
 ### Character Classes
+In this regular expression, the charactor class /d is used which in Javasctipt classifies the use of any digit from 0 to 9.
 
 ### Flags
 
