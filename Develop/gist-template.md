@@ -15,7 +15,6 @@ This is the regex code that we will be anaylizing today is: /^([a-z0-9_\.-]+)@([
 - [Grouping and Capturing](#grouping-and-capturing)
 - [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
 
@@ -42,13 +41,8 @@ Bracket Expression #2: [\da-z\.-] - includes all digits, case sensitive characte
 Bracket Expression #3: [a-z\.] - includes case sensitive characters from a-z and periods.
 
 ### Greedy and Lazy Match
-
-### Boundaries
-
-### Back-references
-
-### Look-ahead and Look-behind
-
+In this example we have only used greedy quantifiers + and {}, meaning that it will allow the match to expand as long as it neess to go. If these quantifiers were lazy quantifiers, they would appear as +? or {}?, this will direct the system to make the shortest match.
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+Hi my name is Julienne Garcia and im currently a student enrolled in a coding boot camp. Cant wait to enter the tech game and dominate!
+https://github.com/jkgdev8
